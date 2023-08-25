@@ -1,0 +1,340 @@
+.profile-general-container {
+    width: 100%;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 14px;
+    width: 100%;
+    max-width: 1141px;
+    margin: 0px auto 0px auto;
+    padding: 50px 0px 0px 0px;
+}
+
+.profile-header h1 {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    color: #1F2937;
+    padding: 0px 0px 40px 0px;
+}
+
+.profile-general {
+    display: flex;
+    align-items: flex-start;
+    gap: 56px;
+}
+
+.profile-first {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.profile-first h2 {
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: #4338CA;
+    padding: 0px 0px 20px 0px;
+}
+
+
+
+.profile-date h3 {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 200%;
+    letter-spacing: 0.18px;
+}
+
+.profile-date p {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    letter-spacing: 0.18px;
+}
+
+.profile-date {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 432px;
+    text-align: left;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    gap: 44px;
+}
+
+.city {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.education {
+    display: flex;
+    align-items: flex-start;
+    gap: 28px;
+}
+
+.role {
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
+.profile-city {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 282px;
+    height: 180px;
+}
+
+
+
+.profile-city h3 {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 200%;
+    letter-spacing: 0.18px;
+}
+
+.profile-city p {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    letter-spacing: 0.18px;
+}
+
+
+.profile-second h2 {
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: #4338CA;
+    padding: 0px 0px 20px 0px;
+}
+
+.profile-second p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: #6B7280;
+}
+
+
+.profile-education {
+    display: flex;
+    align-items: flex-start;
+    width: 372px;
+    gap: 24px;
+}
+
+
+.profile-education h3 {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 200%;
+    letter-spacing: 0.18px;
+}
+
+.profile-education p {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    letter-spacing: 0.18px;
+}
+
+.profile-preference {
+    display: flex;
+    align-items: center;
+    width: 268px;
+    gap: 24px;
+}
+
+.profile-preference h3 {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 200%;
+    letter-spacing: 0.18px;
+}
+
+.profile-preference p {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    letter-spacing: 0.18px;
+}
+
+@media screen and (max-width:1168px) {
+    .profile-header h1 {
+        color: #1F2937;
+        font-family: Inter;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 48px;
+        text-align: center;
+    }
+
+    .profile-general {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 56px;
+    }
+
+    .profile-first {
+        display: flex;
+        align-items: center;
+    }
+
+    .profile-second {
+        max-width: 680px;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .profile-second p {
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+        color: #6B7280;
+        padding:0px 30px 0px 30px;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .profile-date {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width:100% !important;
+        text-align: left;
+    }
+
+    .date {
+        display: flex;
+        align-items: center;
+        flex-direction:column;
+        gap:10px;
+    }
+
+    .city {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-direction:column;
+    }
+
+    .education {
+        display: flex;
+        align-items:center;
+        flex-direction:column;
+        text-align:center;
+        gap: 10px;
+    }
+
+    .role {
+        display: flex;
+        align-items: center;
+        flex-direction:column;
+        gap: 10px;
+    }
+}
+
+
+/* Dark Mode */
+.profile-header.dark h1 {
+    color: #AEBCCF;
+}
+
+.profile-first.dark h2 {
+    color: #B7AAFF;
+}
+
+.profile-date.dark h3 {
+    color: #fff;
+}
+
+.profile-city.dark h3 {
+    color: #fff;
+}
+
+.profile-education.dark h3 {
+    color: #fff;
+}
+
+.profile-preference.dark h3 {
+    color: #fff;
+}
+
+.profile-date.dark p {
+    color: #fff;
+}
+
+.profile-city.dark p {
+    color: #fff;
+}
+
+.profile-education.dark p {
+    color: #fff;
+}
+
+.profile-preference.dark p {
+    color: #fff;
+}
+
+.profile-second.dark h2 {
+    color: #B7AAFF;
+}
+
+.profile-second.dark p {
+    color: #fff;
+}
+
+
+/* Dark Mode */

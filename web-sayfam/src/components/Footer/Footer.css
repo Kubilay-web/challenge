@@ -1,0 +1,251 @@
+.footer-container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: 0px auto 0px auto;
+    padding: 85px 0px 130px 0px;
+    background-color: #F9F9F9;
+    border: 0;
+}
+
+.footer-general-container {
+    display: flex;
+    width: 1140px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+
+
+
+.footer-first {
+    display: flex;
+    flex-direction: column;
+    width: 579px;
+    height: 271px;
+    padding: 85px 0px 0px 0px;
+    gap: 60px;
+}
+
+.footer-mail {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+p.footer-text-container {
+    font-family: Inter;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 53px;
+    letter-spacing: 0em;
+}
+
+p.mail-text {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.05em;  
+    color:#AF0C48; 
+    text-decoration:underline;
+}
+
+
+.footer-second {
+    display: flex;
+    align-items: flex-end;
+    width: 294px;
+    height: 271px;
+    gap: 20px;
+}
+
+.personal-blog p {
+    color: #0A0A14;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.18px;
+}
+
+.footer-github p {
+    color: #00AB6B;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.18px;
+}
+
+.footer-linkedin p {
+    color: #0077B5;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.18px;
+}
+
+@media screen and (max-width:1168px) {
+    .footer-general-container {
+        display: flex;
+        width: 100%;
+        max-width: 1140px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+    .footer-first {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 579px;
+        height: 271px;
+        padding: 85px 0px 0px 0px;
+        gap: 60px;
+    }
+
+    .footer-second {
+        display: flex;
+        align-items: center;
+        width: 294px;
+        height: 271px;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width:896px) {
+    .footer-mail p {
+        color: #AF0C48;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1px;
+        text-decoration-line: underline;
+    }
+
+    .footer-first {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 579px;
+        height: 271px;
+        padding: 85px 0px 0px 0px;
+        gap: 60px;
+    }
+
+    .footer-container {
+        display: flex;
+        width: 100%;
+        height: auto;
+        margin: 0px auto 0px auto;
+        padding:0px;
+        background-color: #F9F9F9;
+        border: 0;
+    }
+}
+
+
+
+@media screen and (max-width:426px) {
+    .footer-container {
+        display: flex;
+        width: 100%;
+        height: auto;
+        margin: 0px auto 0px auto;
+        background-color: #F9F9F9;
+        padding:0px;
+        border: 0;
+    }
+
+
+    .footer-second {
+        display: flex;
+        align-items: center;
+        width: 294px;
+        height: 211px;
+        gap: 20px;
+    }
+
+
+    p.mail-text {
+        font-family: Inter;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.05em;  
+        color:#AF0C48; 
+        text-decoration:underline;
+    }
+
+    p.footer-text-container {
+        font-family: Inter;
+        font-size: 26px;
+        font-weight: 600;
+        letter-spacing: 0;
+        line-height: 36px;
+    }
+    
+
+}
+
+
+
+
+
+/* Dark Mode */
+.footer-container.dark {
+    background-color: #141414;
+}
+
+p.footer-text-container.dark {
+    font-family: Inter;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 53px;
+    letter-spacing: 0em;
+    color:#AEBCCF;
+}
+
+p.dark-text-title {
+    color: #AEBCCF;
+}
+
+p.dark-text {
+    color: #BAB2E7;
+}
+
+p.mail-text.dark {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #BAB2E7;
+}
+
+p.dark-text-blog {
+    color: #E1E1FF;
+}
+
+p.dark-text-github {
+    color: #17D18B;
+}
+
+p.dark-text-linkedin {
+    color: #0BA6F6;
+}
+
+
+/* Dark Mode */

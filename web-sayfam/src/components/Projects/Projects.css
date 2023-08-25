@@ -1,0 +1,241 @@
+.project-general-container {
+    width: 100%;
+    border: 0;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 14px;
+    width: 100%;
+    max-width: 1141px;
+    margin: 0px auto 0px auto;
+    padding: 50px 0px 140px 0px;
+    border: 0;
+}
+
+.projects-container h1 {
+    color: #000;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+    padding:0px 0px 30px 0px;
+}
+
+.project-general {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.project-first {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 300px;
+    gap: 18px;
+}
+
+.project-first h2 {
+    color: var(--default-indigo-700, #4338CA);
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.project-first p {
+    color: var(--default-gray-500, #6B7280);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+.project-react {
+    display: flex;
+    padding: 6px 18px 7px 18px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px solid #3730A3;
+    background: #FFF;
+}
+
+.project-react p {
+    color: #3730A3;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: -0.7px;
+}
+
+.project-redux {
+    display: flex;
+    padding: 6px 18px 7px 18px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px solid #3730A3;
+    background: #FFF;
+}
+
+.project-redux p {
+    color: #3730A3;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: -0.7px;
+}
+
+.project-axios {
+    display: flex;
+    padding: 6px 18px 7px 18px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px solid #3730A3;
+    background: #FFF;
+}
+
+.project-axios p {
+    color: #3730A3;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: -0.7px;
+}
+
+.project-tags {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.projects-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.projects-link p {
+    color: var(--default-indigo-800, #3730A3);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    text-decoration-line: underline;
+}
+
+
+@media screen and (max-width:1168px) {
+
+    .projects-container h1 {
+        color: #000;
+        font-family: Inter;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 48px;
+        text-align: center;
+    }
+
+    .project-general {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+}
+
+@media screen and (max-width:426px) {
+    .projects-container {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 14px;
+        width: 100%;
+        max-width: 1141px;
+        margin: 0px auto 0px auto;
+        padding: 52px 0px 79px 0px;
+        border: 0;
+    }
+}
+
+
+
+
+/* Dark Mode */
+
+.projects-container.dark h1 {
+    color: #AEBCCF;
+}
+
+.project-first.dark h2 {
+    color: #CFCBFF;
+}
+
+.project-first.dark p {
+    color: #fff;
+}
+
+.project-react.dark {
+    display: flex;
+    padding: 6px 18px 7px 18px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px solid #8F88FF;
+    background: #383838;
+}
+
+.project-react.dark p {
+    color:#8F88FF;
+}
+
+.project-redux.dark {
+    display: flex;
+    padding: 6px 18px 7px 18px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px solid #8F88FF;
+    background: #383838;
+}
+
+.project-redux.dark p {
+    color:#8F88FF;
+}
+
+.project-axios.dark {
+    display: flex;
+    padding: 6px 18px 7px 18px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px solid #8F88FF;
+    background: #383838;
+}
+
+.project-axios.dark p {
+    color:#8F88FF;
+}
+
+
+
+/* Dark Mode */

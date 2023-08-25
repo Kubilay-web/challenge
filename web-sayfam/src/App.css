@@ -1,0 +1,8 @@
+
+.app-container.dark {
+  background-color: #252128 !important;
+}
+
+.app-container.light {
+  background-color: #fff;
+}
